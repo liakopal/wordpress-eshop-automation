@@ -1,0 +1,41 @@
+# WordPress Core Files
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/plugins/
+/wp-content/themes/
+/wp-content/languages/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/jetpack-waf/
+/wp-content/upgrade-temp-backup/
+
+# WordPress PHP Files
+wp-*.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+
+# Configuration & Security
+wp-config.php
+wp-config-sample.php
+.htaccess
+*.log
+
+# IDE & Development Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# CUSTOM FILES TO KEEP (not ignored)
+# !README.md
+# !installer.php
+# !apothema-functions.php
+# !demo-content/
+# !documentation/
+# !.gitignore

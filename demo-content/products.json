@@ -1,0 +1,224 @@
+{
+  "categories": [
+    {
+      "name": "Ηλεκτρονικά",
+      "slug": "electronics",
+      "description": "Smartphones, Laptops, Tablets και άλλα ηλεκτρονικά προϊόντα"
+    },
+    {
+      "name": "Μόδα",
+      "slug": "fashion",
+      "description": "Ρούχα, Παπούτσια και Αξεσουάρ για όλους"
+    },
+    {
+      "name": "Ομορφιά",
+      "slug": "beauty",
+      "description": "Καλλυντικά και Προϊόντα Περιποίησης"
+    }
+  ],
+  "products": [
+    {
+      "category": "electronics",
+      "sku": "ELEC-001",
+      "name": "iPhone 15 Pro",
+      "description": "Το πιο προηγμένο iPhone με A17 Pro chip, titanium design και προηγμένο σύστημα κάμερας",
+      "short_description": "Το πιο προηγμένο iPhone",
+      "price": "1299.00",
+      "stock": 25,
+      "featured": true,
+      "attributes": {
+        "Χρώμα": ["Titanium Black", "Titanium White", "Titanium Blue", "Titanium Natural"],
+        "Αποθήκευση": ["128GB", "256GB", "512GB", "1TB"]
+      }
+    },
+    {
+      "category": "electronics",
+      "sku": "ELEC-002",
+      "name": "Samsung Galaxy S24",
+      "description": "Κορυφαία Android συσκευή με AI capabilities και εκπληκτική οθόνη AMOLED",
+      "short_description": "Κορυφαία Android συσκευή",
+      "price": "999.00",
+      "stock": 30,
+      "featured": true,
+      "attributes": {
+        "Χρώμα": ["Onyx Black", "Marble Gray", "Cobalt Violet"],
+        "Αποθήκευση": ["256GB", "512GB"]
+      }
+    },
+    {
+      "category": "electronics",
+      "sku": "ELEC-003",
+      "name": "iPad Air",
+      "description": "Ισχυρό και ελαφρύ tablet με M2 chip για απίστευτη απόδοση",
+      "short_description": "Ισχυρό και ελαφρύ tablet",
+      "price": "699.00",
+      "stock": 20,
+      "featured": false,
+      "attributes": {
+        "Χρώμα": ["Space Gray", "Starlight", "Pink", "Purple", "Blue"],
+        "Μέγεθος": ["11-inch", "13-inch"]
+      }
+    },
+    {
+      "category": "electronics",
+      "sku": "ELEC-004",
+      "name": "MacBook Air M3",
+      "description": "Υπερφορητός υπολογιστής με εκπληκτική διάρκεια μπαταρίας και απόδοση",
+      "short_description": "Υπερφορητός υπολογιστής",
+      "price": "1199.00",
+      "stock": 15,
+      "featured": true,
+      "attributes": {
+        "Χρώμα": ["Midnight", "Starlight", "Space Gray", "Silver"],
+        "Μνήμη": ["8GB", "16GB", "24GB"]
+      }
+    },
+    {
+      "category": "electronics",
+      "sku": "ELEC-005",
+      "name": "AirPods Pro",
+      "description": "Ασύρματα ακουστικά με Active Noise Cancellation και Spatial Audio",
+      "short_description": "Ασύρματα ακουστικά με ANC",
+      "price": "279.00",
+      "stock": 50,
+      "featured": false,
+      "attributes": {
+        "Χρώμα": ["White"]
+      }
+    },
+    {
+      "category": "fashion",
+      "sku": "FASH-001",
+      "name": "Ανδρικό T-Shirt Premium",
+      "description": "100% οργανικό βαμβάκι, άνετη εφαρμογή, διαθέσιμο σε πολλά χρώματα",
+      "short_description": "100% βαμβάκι, άνετη εφαρμογή",
+      "price": "29.90",
+      "stock": 100,
+      "featured": false,
+      "attributes": {
+        "Χρώμα": ["Λευκό", "Μαύρο", "Γκρι", "Μπλε Navy"],
+        "Μέγεθος": ["S", "M", "L", "XL", "XXL"]
+      }
+    },
+    {
+      "category": "fashion",
+      "sku": "FASH-002",
+      "name": "Γυναικείο Φόρεμα Καλοκαιρινό",
+      "description": "Ελαφρύ και κομψό φόρεμα, ιδανικό για καλοκαιρινές εξόδους",
+      "short_description": "Ελαφρύ και κομψό",
+      "price": "49.90",
+      "stock": 60,
+      "featured": true,
+      "attributes": {
+        "Χρώμα": ["Floral", "Solid Blue", "Solid Pink"],
+        "Μέγεθος": ["XS", "S", "M", "L", "XL"]
+      }
+    },
+    {
+      "category": "fashion",
+      "sku": "FASH-003",
+      "name": "Αθλητικά Παπούτσια Running",
+      "description": "Άνετα παπούτσια για τρέξιμο με προηγμένη τεχνολογία απορρόφησης κραδασμών",
+      "short_description": "Για άνετο τρέξιμο",
+      "price": "89.90",
+      "stock": 40,
+      "featured": false,
+      "attributes": {
+        "Χρώμα": ["Black/White", "Blue/Gray", "Pink/White"],
+        "Μέγεθος": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+      }
+    },
+    {
+      "category": "fashion",
+      "sku": "FASH-004",
+      "name": "Τζιν Skinny Fit",
+      "description": "Μοντέρνα γραμμή με stretch ύφασμα για άνεση και στυλ",
+      "short_description": "Μοντέρνα γραμμή",
+      "price": "59.90",
+      "stock": 80,
+      "featured": false,
+      "attributes": {
+        "Χρώμα": ["Dark Blue", "Light Blue", "Black"],
+        "Μέγεθος": ["28", "30", "32", "34", "36"]
+      }
+    },
+    {
+      "category": "fashion",
+      "sku": "FASH-005",
+      "name": "Δερμάτινη Τσάντα",
+      "description": "Χειροποίητη τσάντα από γνήσιο δέρμα με κομψό design",
+      "short_description": "Χειροποίητη, γνήσιο δέρμα",
+      "price": "119.90",
+      "stock": 25,
+      "featured": true,
+      "attributes": {
+        "Χρώμα": ["Μαύρο", "Καφέ", "Tan"]
+      }
+    },
+    {
+      "category": "beauty",
+      "sku": "BEAU-001",
+      "name": "Αντιγηραντική Κρέμα Προσώπου",
+      "description": "Πλούσια κρέμα με υαλουρονικό οξύ και βιταμίνη C για νεανική επιδερμίδα",
+      "short_description": "Με υαλουρονικό οξύ",
+      "price": "45.50",
+      "stock": 70,
+      "featured": true,
+      "attributes": {
+        "Μέγεθος": ["30ml", "50ml"]
+      }
+    },
+    {
+      "category": "beauty",
+      "sku": "BEAU-002",
+      "name": "Σετ Μακιγιάζ Professional",
+      "description": "12 προϊόντα μακιγιάζ σε κομψή θήκη, ιδανικό για επαγγελματίες",
+      "short_description": "12 προϊόντα σε κομψή θήκη",
+      "price": "79.90",
+      "stock": 30,
+      "featured": false,
+      "attributes": {
+        "Τύπος": ["Natural Tones", "Bold Colors"]
+      }
+    },
+    {
+      "category": "beauty",
+      "sku": "BEAU-003",
+      "name": "Άρωμα Floral Dream 50ml",
+      "description": "Γυναικείο άρωμα με νότες γιασεμιού, τριαντάφυλλου και vanilla",
+      "short_description": "Γυναικείο άρωμα με νότες γιασεμιού",
+      "price": "65.00",
+      "stock": 40,
+      "featured": true,
+      "attributes": {
+        "Μέγεθος": ["30ml", "50ml", "100ml"]
+      }
+    },
+    {
+      "category": "beauty",
+      "sku": "BEAU-004",
+      "name": "Σαμπουάν Θρέψης",
+      "description": "Για ξηρά και ταλαιπωρημένα μαλλιά με argan oil και κερατίνη",
+      "short_description": "Για ξηρά και ταλαιπωρημένα μαλλιά",
+      "price": "12.90",
+      "stock": 90,
+      "featured": false,
+      "attributes": {
+        "Μέγεθος": ["250ml", "500ml"]
+      }
+    },
+    {
+      "category": "beauty",
+      "sku": "BEAU-005",
+      "name": "Serum Βιταμίνης C",
+      "description": "Λάμψη και αντιοξειδωτική προστασία για όλους τους τύπους επιδερμίδας",
+      "short_description": "Λάμψη και αντιοξειδωτική προστασία",
+      "price": "35.00",
+      "stock": 55,
+      "featured": false,
+      "attributes": {
+        "Συγκέντρωση": ["10%", "15%", "20%"]
+      }
+    }
+  ]
+}

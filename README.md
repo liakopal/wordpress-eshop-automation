@@ -49,3 +49,8 @@ greek-eshop-automation/
 
 ---
 *Development in progress*
+
+## 🔄 Latest Updates
+- Added `installer-v2.php` with configuration wizard
+- Added business type templates (Fashion, Electronics, Food, Beauty)
+- See `documentation/implementation-roadmap.md` for development timeline
